@@ -1,0 +1,100 @@
+
+.container {
+    width: 800px;
+    background-color: #E5E5E5;
+    margin: auto;
+}
+header {
+    background-color: #333333;
+}
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#group {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #666666;
+}
+.menu {
+    float: left;
+}
+.menu a {
+    display: block;
+    color: #FDFDFD;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    border-right: 1px solid black;
+}
+.menu a:hover {
+    background-color: #4e4b4b;
+}
+section {
+    float: left; 
+    background-color: #FFFFFF; 
+    width: 560px; 
+    height: 100%;
+}
+.content {
+    height: 215px; 
+    width: 560px;
+}
+.square {
+    float: left; 
+    margin-left: 20px; 
+    margin-top: 40px; 
+    margin-bottom: 30px; 
+    height: 145px; 
+    width: 145px;
+    background-color: #E5E5E5;
+}
+.top {
+    margin-top: 30px;
+}
+.info{
+    float: left; 
+    width: 60%; 
+    height: 145px; 
+    padding-left: 10px; 
+    padding-top: 20px;
+}
+.infotop {
+    padding-top: 10px;
+}
+.details {
+    text-decoration: none; 
+    color: #F29241;
+}
+.horiRu {
+    margin: 0px; 
+    margin-left: 20px; 
+    margin-right: 40px;
+}
+aside {
+    float: left;
+    width: 220px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#hori-slide {
+    list-style-type: none;
+    padding-left: 10px;
+}
+.menu-slide a{
+    color: #F29241;
+    text-decoration: none;
+}
+footer {
+    background-color: #333333;
+    height: 54px;
+}
+#infoFooter {
+    text-align: center; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    line-height: 55px;
+}
