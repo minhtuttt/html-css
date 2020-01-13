@@ -1,4 +1,9 @@
 
+*{margin:0px; padding: 0px;}
+
+body{
+    background-color: #CCCCCC;
+}
 .container {
     width: 800px;
     background-color: #E5E5E5;
@@ -60,16 +65,20 @@ section {
     width: 60%; 
     height: 145px; 
     padding-left: 10px; 
-    padding-top: 20px;
+    padding-top: 40px;
 }
 .infotop {
-    padding-top: 10px;
+    padding-top: 30px;
+}
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .details {
     text-decoration: none; 
     color: #F29241;
 }
-.horiRu {
+hr {
     margin: 0px; 
     margin-left: 20px; 
     margin-right: 40px;
@@ -80,9 +89,18 @@ aside {
     padding-left: 10px;
     padding-right: 10px;
 }
+.title {
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+.hrAside {
+    margin-left: 0px; 
+    margin-right: 0px;
+}
 #hori-slide {
     list-style-type: none;
     padding-left: 10px;
+    margin-top: 10px;
 }
 .menu-slide a{
     color: #F29241;
@@ -97,4 +115,7 @@ footer {
     margin-top: 0px; 
     margin-right: 0px; 
     line-height: 55px;
+    color: #FFFFFF;
 }
+
+
